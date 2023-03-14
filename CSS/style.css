@@ -1,7 +1,4 @@
 body{
-    background-image: url('Pic\pizza.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -38,6 +35,14 @@ footer{
     padding: auto;
     margin: auto;
 }
+
+#cart{
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    border:gold solid 2px;
+}
+
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6)
