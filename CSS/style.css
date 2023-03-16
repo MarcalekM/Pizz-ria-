@@ -43,6 +43,10 @@ footer{
     border:gold solid 2px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6)
