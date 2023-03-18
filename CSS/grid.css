@@ -25,3 +25,7 @@ aside{
 footer{
     grid-area: 7 / 1 / 8 / 6;
 }
+
+.head-pic{
+    grid-column: 1 / 6;
+}
