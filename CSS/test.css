@@ -109,7 +109,7 @@ header nav ul li {
     align-items: center;
     height: 150px;
     border-radius: 15px;
-    background-image: url(../images/kep5.webp);
+    background-image: url(../images/asd.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,4 +120,24 @@ header nav ul li {
     font-size: 60px;
     font-weight: bold;
     color: #001524;
+}
+
+.card-4 {
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 2;
+    background-color: #001524;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.card-4 h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #ffecd1;
+    padding: 20px;
+}
+
+.card-4 p {
+    padding-left: 20px;
+    color: #ffecd1;
 }
