@@ -130,14 +130,60 @@ header nav ul li {
     border-radius: 15px;
 }
 
-.card-4 h2 {
+.card-4 h2, .cart-table h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     color: #ffecd1;
     padding: 20px;
 }
 
-.card-4 p {
+.card-4 p, .cart-table p {
     padding-left: 20px;
+    color: #ffecd1;
+}
+
+.cart-table{
+    grid-column: 4 / span 5;
+    grid-row: 2 / span 3;
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 2;
+    background-color: #001524;
+    height: 350x;
+    border-radius: 15px;
+}
+
+.reciepe{
+    grid-column: 10 / span 2;
+    grid-row: 2 / span 2;
+    background-color: grey;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#ossz{
+    margin-top: 20px;
+}
+
+table{
+    margin: auto;
+    margin-top: 5px;
+}
+
+th{
+    width: 100px;
+    margin: 20px;
+    color: #ffecd1;
+}
+
+td{
+    width: 100px;
+    margin: 20px;
+    color: #ffecd1;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #001524;
     color: #ffecd1;
 }
