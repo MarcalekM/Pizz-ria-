@@ -17,18 +17,11 @@ function Osszeg(price){
     document.getElementById("ossz").innerHTML = osszeg + " Ft";
 }
 
-function prod1() {
-  let name = "Magyaros";
-  let size = 32;
-  let price = 3000;
-  AddNewRow(name, size, price);
-  Osszeg(price);
-}
-
-function prod2() {
-  let name;
-  let size;
-  let price;
-  AddNewRow(name, size, price);
-  Osszeg(price);
+for (let i = 0; i < sessionStorage.length; i++) {
+  if (i != 0) {
+    let pizza = JSON.parse(sessionStorage.getItem(sessionStorage.key(i)))
+    console.log(pizza);
+    AddNewRow(pizza["name"], pizza["size"], pizza["price"])
+    Osszeg(pizza["price"])
+  }
 }
