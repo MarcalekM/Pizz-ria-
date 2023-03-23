@@ -24,18 +24,23 @@
     
     <main>
         <div class="wrapper">
-            <div class="card-4">
-                <h2>>Üdvözöljük a Pizzériánk weboldalán!</h2>
-                <p>
-                    Elérhetőségeink:<br>
-                    Telefon: +368435189849<br>
-                    Email: pizza@gamil.com<br>
-                    Fax: 36-2-563-551<br>
-                </p>
+            <div class="cart-table" style="overflow-y: auto;">
+                <table id="MyOrder">
+                    <th>Pizza</th>
+                    <th>Méret</th>
+                    <th>Ár</th>
+                </table>
             </div>
-            
+            <div class="reciepe">
+                <h2>Fizetendő összeg:</h2>
+                <p id="ossz">
+                    0
+                </p>
+                <button>Rendelés leadása</button>
+            </div>
         </div>
     </main>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
