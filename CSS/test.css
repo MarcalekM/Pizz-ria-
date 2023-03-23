@@ -109,7 +109,7 @@ header nav ul li {
     align-items: center;
     height: 150px;
     border-radius: 15px;
-    background-image: url(../images/asd.webp);
+    background-image: url(../images/kep5.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -141,6 +141,7 @@ header nav ul li {
     padding-left: 20px;
     color: #ffecd1;
 }
+
 
 .cart-table{
     grid-column: 4 / span 5;
