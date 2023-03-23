@@ -186,3 +186,88 @@ header nav ul li {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.card-4 {
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 2;
+    background-color: #001524;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.card-4 h2, .cart-table h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #ffecd1;
+    padding: 20px;
+}
+
+.card-4 p, .cart-table p {
+    padding-left: 20px;
+    color: #ffecd1;
+}
+
+.cart-table{
+    grid-column: 4 / span 5;
+    grid-row: 2 / span 3;
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 2;
+    background-color: #001524;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.reciepe{
+    grid-column: 10 / span 2;
+    grid-row: 2 / span 2;
+    background-color: grey;
+    height: 350px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#ossz{
+    margin-top: 20px;
+}
+
+table{
+    margin: auto;
+    margin-top: 5px;
+}
+
+th{
+    width: 100px;
+    margin: 20px;
+    color: #ffecd1;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+td{
+    width: 100px;
+    margin: 20px;
+    color: #ffecd1;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #001524;
+    color: #ffecd1;
+}
+
+::-webkit-scrollbar{
+    color: #ffecd1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffecd1; 
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-track{
+    color: #001524;
+    background-color: #001524;
+}
