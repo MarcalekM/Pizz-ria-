@@ -109,7 +109,7 @@ header nav ul li {
     align-items: center;
     height: 150px;
     border-radius: 15px;
-    background-image: url(../images/asd.webp);
+    background-image: url(../images/kep5.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,4 +140,49 @@ header nav ul li {
 .card-4 p {
     padding-left: 20px;
     color: #ffecd1;
+}
+
+.prod {
+    height: 280px;
+}
+
+.button {
+    display: flex;
+}
+
+.prod h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 38px;
+    color: #fff;
+    padding: 15px;
+}
+
+.prod-1 {
+    grid-column: 4 / span 2;
+    grid-row: 2 / span 2;
+    border-radius: 15px;
+    background-image: url(../images/kep5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-2 {
+    grid-column: 6 / span 2;
+    grid-row: 2 / span 2;
+    border-radius: 15px;
+    background-image: url(../images/kep2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod-3 {
+    grid-column: 8 / span 2;
+    grid-row: 2 / span 2;
+    border-radius: 15px;
+    background-image: url(../images/kep4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
