@@ -32,6 +32,15 @@ header nav ul li {
     padding: 13px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.s {
+    font-family: 'Great Vibes', cursive;
+}
+
 .logo {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
