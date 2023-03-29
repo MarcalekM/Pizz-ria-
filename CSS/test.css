@@ -32,6 +32,19 @@ header nav ul li {
     padding: 13px;
 }
 
+footer{
+    background-color: #001524;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: #ffecd1;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: #fff;
